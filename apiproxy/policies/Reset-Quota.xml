@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ResetQuota async="false" continueOnError="false" enabled="true" name="Reset-Quota">
+    <DisplayName>Reset Quota</DisplayName>
+    <Properties/>
+    <Quota name="impose-quota">
+        <Identifier name="_default">
+            <Allow ref="resetCount"/>
+        </Identifier>
+    </Quota>
+</ResetQuota>
